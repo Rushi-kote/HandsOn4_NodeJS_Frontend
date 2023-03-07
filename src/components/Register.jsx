@@ -31,7 +31,7 @@ const Register = () => {
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ fName,lName,email,phoneNo,password})
       };
-      fetch('/auth/sign-up', requestOptions)
+      fetch('https://login-page-authentication.onrender.com/auth/sign-up', requestOptions)
           .then(response => response.json())
           .then(data => console.log(data));
   
