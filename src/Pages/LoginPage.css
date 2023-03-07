@@ -1,0 +1,32 @@
+.FormContainer {
+    text-align: center;
+    height: 385px;
+    width: 300px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 30px;
+    padding: 18px;
+    border-radius: 30px;
+    background-color: lightsteelblue;
+}
+
+input {
+    margin: auto;
+    border-radius: 7px;
+    height: 25px;
+    margin: 10px;
+    width: 172px;
+}
+
+label {
+    margin: 10px;
+}
+
+button {
+    border-radius: 10px;
+    height: 27px;
+    width: 100px;
+    background: greenyellow;
+    text-align: center;
+    font-style:italic ;
+}
