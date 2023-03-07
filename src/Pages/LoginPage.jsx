@@ -25,7 +25,7 @@ const LoginPage = () => {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({email:userEmail,pass:userPass})
         };
-        fetch('/auth/login', requestOptions)
+        fetch('https://login-page-authentication.onrender.com/auth/login', requestOptions)
             .then(response => response.json())
             .then(data => console.log(data));
     
